@@ -26,3 +26,4 @@ ssh -i src/main/resources/secret/key0527.pem ubuntu@43.203.248.68 'docker rm pet
 ssh -i src/main/resources/secret/key0527.pem ubuntu@43.203.248.68 'docker pull lolloollooll/petmily'
 # 컨테이너 실행
 ssh -i src/main/resources/secret/key0527.pem ubuntu@43.203.248.68 'docker run -d -p 8080:8080 --restart always --name petmily lolloollooll/petmily'
+

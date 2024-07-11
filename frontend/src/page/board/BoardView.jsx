@@ -201,6 +201,9 @@ export function BoardView() {
                       borderRadius="full"
                       mr={2}
                       sx={{ cursor: "pointer" }}
+                      onClick={() =>
+                          handleWriterClick(board.writer, board.memberId)
+                      }
                     />
                   ) : (
                     <Avatar
@@ -208,6 +211,9 @@ export function BoardView() {
                       size="sm"
                       mr={2}
                       sx={{ cursor: "pointer" }}
+                      onClick={() =>
+                          handleWriterClick(board.writer, board.memberId)
+                      }
                     />
                   )}
                   <Badge
