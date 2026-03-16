@@ -178,6 +178,7 @@ export const MainPage = () => {
         setGuideBoards(res.data);
       } catch (error) {
         console.error("Error fetching guide boards:", error);
+        setGuideBoards(demoGuideBoards);
       }
     };
 
