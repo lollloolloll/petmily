@@ -70,6 +70,7 @@ public class BoardService {
     public Map<String, Object> list(Integer page, Integer pageAmount, Boolean offsetReset, HttpSession session, String boardType,
                                     String searchType, String keyword)
             throws Exception {
+
         if (page <= 0) {
             throw new IllegalArgumentException("page must be greater than 0");
         }

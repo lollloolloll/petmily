@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import  { useContext, useState } from "react";
 import { Box } from "@chakra-ui/react";
 import { Outlet, useLocation } from "react-router-dom";
 import { FriendsListComponent } from "../component/chat/FriendsListComponent.jsx";
